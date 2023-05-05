@@ -1,0 +1,8 @@
+//
+// Created by Thomas on 05/05/2023.
+//
+
+#ifndef DEV_HEATHINGRESISTORS_H
+#define DEV_HEATHINGRESISTORS_H
+
+#endif //DEV_HEATHINGRESISTORS_H
