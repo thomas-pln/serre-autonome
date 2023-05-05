@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Thomas\Documents\ESEO\S6\Electronique_numérique\serre-autonome\f103-master\f103-master"/>
 			<item value="C:\Users\Thomas\Documents\ESEO\S6\Electronique_numérique\serre-autonome\software\dev"/>
 			<item value="C:\Users\Thomas\Documents\ESEO\S6\Electronique_numérique\serre-autonome\f103-master"/>
 		</list>
@@ -19,5 +20,9 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Thomas\Documents\ESEO\S6\Electronique_numérique\serre-autonome\f103-master\f103-master"/>
+			<item value="C:\Users\Thomas\Documents\ESEO\S6\Electronique_numérique\serre-autonome\software\dev"/>
+		</list>
 	</section>
 </section>
