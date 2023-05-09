@@ -1,2 +1,5 @@
-.idea
-.metadata
+.idea/*
+.metadata/*
+CMakeLists.txt
+cmake-build-debug/*
+
