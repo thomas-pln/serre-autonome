@@ -401,6 +401,216 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./appli/main.o
  .debug_macro   0x0000000000000000      0x16f ./appli/main.o
  .debug_macro   0x0000000000000000       0x88 ./appli/main.o
+ .group         0x0000000000000000        0xc ./appli/controllers/HeatingControl.o
+ .text          0x0000000000000000        0x0 ./appli/controllers/HeatingControl.o
+ .data          0x0000000000000000        0x0 ./appli/controllers/HeatingControl.o
+ .bss           0x0000000000000000        0x0 ./appli/controllers/HeatingControl.o
+ .debug_info    0x0000000000000000       0x21 ./appli/controllers/HeatingControl.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/controllers/HeatingControl.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/controllers/HeatingControl.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/controllers/HeatingControl.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/controllers/HeatingControl.o
+ .debug_line    0x0000000000000000       0x5a ./appli/controllers/HeatingControl.o
+ .debug_str     0x0000000000000000     0x2ded ./appli/controllers/HeatingControl.o
+ .comment       0x0000000000000000       0x54 ./appli/controllers/HeatingControl.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/controllers/HeatingControl.o
+ .group         0x0000000000000000        0xc ./appli/controllers/LightControl.o
+ .text          0x0000000000000000        0x0 ./appli/controllers/LightControl.o
+ .data          0x0000000000000000        0x0 ./appli/controllers/LightControl.o
+ .bss           0x0000000000000000        0x0 ./appli/controllers/LightControl.o
+ .debug_info    0x0000000000000000       0x21 ./appli/controllers/LightControl.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/controllers/LightControl.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/controllers/LightControl.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/controllers/LightControl.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/controllers/LightControl.o
+ .debug_line    0x0000000000000000       0x56 ./appli/controllers/LightControl.o
+ .debug_str     0x0000000000000000     0x2de9 ./appli/controllers/LightControl.o
+ .comment       0x0000000000000000       0x54 ./appli/controllers/LightControl.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/controllers/LightControl.o
+ .group         0x0000000000000000        0xc ./appli/controllers/SoilMoisturePumpControl.o
+ .text          0x0000000000000000        0x0 ./appli/controllers/SoilMoisturePumpControl.o
+ .data          0x0000000000000000        0x0 ./appli/controllers/SoilMoisturePumpControl.o
+ .bss           0x0000000000000000        0x0 ./appli/controllers/SoilMoisturePumpControl.o
+ .debug_info    0x0000000000000000       0x21 ./appli/controllers/SoilMoisturePumpControl.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/controllers/SoilMoisturePumpControl.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/controllers/SoilMoisturePumpControl.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/controllers/SoilMoisturePumpControl.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/controllers/SoilMoisturePumpControl.o
+ .debug_line    0x0000000000000000       0x6c ./appli/controllers/SoilMoisturePumpControl.o
+ .debug_str     0x0000000000000000     0x2dff ./appli/controllers/SoilMoisturePumpControl.o
+ .comment       0x0000000000000000       0x54 ./appli/controllers/SoilMoisturePumpControl.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/controllers/SoilMoisturePumpControl.o
+ .group         0x0000000000000000        0xc ./appli/interfaces/Bluetooth.o
+ .text          0x0000000000000000        0x0 ./appli/interfaces/Bluetooth.o
+ .data          0x0000000000000000        0x0 ./appli/interfaces/Bluetooth.o
+ .bss           0x0000000000000000        0x0 ./appli/interfaces/Bluetooth.o
+ .debug_info    0x0000000000000000       0x21 ./appli/interfaces/Bluetooth.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/interfaces/Bluetooth.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/interfaces/Bluetooth.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/interfaces/Bluetooth.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/interfaces/Bluetooth.o
+ .debug_line    0x0000000000000000       0x4f ./appli/interfaces/Bluetooth.o
+ .debug_str     0x0000000000000000     0x2de2 ./appli/interfaces/Bluetooth.o
+ .comment       0x0000000000000000       0x54 ./appli/interfaces/Bluetooth.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/interfaces/Bluetooth.o
+ .group         0x0000000000000000        0xc ./appli/interfaces/TFT.o
+ .text          0x0000000000000000        0x0 ./appli/interfaces/TFT.o
+ .data          0x0000000000000000        0x0 ./appli/interfaces/TFT.o
+ .bss           0x0000000000000000        0x0 ./appli/interfaces/TFT.o
+ .debug_info    0x0000000000000000       0x21 ./appli/interfaces/TFT.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/interfaces/TFT.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/interfaces/TFT.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/interfaces/TFT.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/interfaces/TFT.o
+ .debug_line    0x0000000000000000       0x43 ./appli/interfaces/TFT.o
+ .debug_str     0x0000000000000000     0x2dd6 ./appli/interfaces/TFT.o
+ .comment       0x0000000000000000       0x54 ./appli/interfaces/TFT.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/interfaces/TFT.o
+ .group         0x0000000000000000        0xc ./appli/modeles/HeathingResistors.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/HeathingResistors.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/HeathingResistors.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/HeathingResistors.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/HeathingResistors.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/HeathingResistors.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/HeathingResistors.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/HeathingResistors.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/HeathingResistors.o
+ .debug_line    0x0000000000000000       0x5c ./appli/modeles/HeathingResistors.o
+ .debug_str     0x0000000000000000     0x2def ./appli/modeles/HeathingResistors.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/HeathingResistors.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/HeathingResistors.o
+ .group         0x0000000000000000        0xc ./appli/modeles/LED.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/LED.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/LED.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/LED.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/LED.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/LED.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/LED.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/LED.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/LED.o
+ .debug_line    0x0000000000000000       0x40 ./appli/modeles/LED.o
+ .debug_str     0x0000000000000000     0x2dd3 ./appli/modeles/LED.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/LED.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/LED.o
+ .group         0x0000000000000000        0xc ./appli/modeles/Pump.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/Pump.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/Pump.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/Pump.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/Pump.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/Pump.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/Pump.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/Pump.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/Pump.o
+ .debug_line    0x0000000000000000       0x42 ./appli/modeles/Pump.o
+ .debug_str     0x0000000000000000     0x2dd5 ./appli/modeles/Pump.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/Pump.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/Pump.o
+ .group         0x0000000000000000        0xc ./appli/modeles/sensors/ButtonConfig.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/sensors/ButtonConfig.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/sensors/ButtonConfig.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/sensors/ButtonConfig.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/sensors/ButtonConfig.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/sensors/ButtonConfig.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/sensors/ButtonConfig.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/sensors/ButtonConfig.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/sensors/ButtonConfig.o
+ .debug_line    0x0000000000000000       0x5a ./appli/modeles/sensors/ButtonConfig.o
+ .debug_str     0x0000000000000000     0x2ded ./appli/modeles/sensors/ButtonConfig.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/sensors/ButtonConfig.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/sensors/ButtonConfig.o
+ .group         0x0000000000000000        0xc ./appli/modeles/sensors/DHT11.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/sensors/DHT11.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/sensors/DHT11.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/sensors/DHT11.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/sensors/DHT11.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/sensors/DHT11.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/sensors/DHT11.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/sensors/DHT11.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/sensors/DHT11.o
+ .debug_line    0x0000000000000000       0x4c ./appli/modeles/sensors/DHT11.o
+ .debug_str     0x0000000000000000     0x2ddf ./appli/modeles/sensors/DHT11.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/sensors/DHT11.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/sensors/DHT11.o
+ .group         0x0000000000000000        0xc ./appli/modeles/sensors/LightSensor.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/sensors/LightSensor.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/sensors/LightSensor.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/sensors/LightSensor.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/sensors/LightSensor.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/sensors/LightSensor.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/sensors/LightSensor.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/sensors/LightSensor.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/sensors/LightSensor.o
+ .debug_line    0x0000000000000000       0x58 ./appli/modeles/sensors/LightSensor.o
+ .debug_str     0x0000000000000000     0x2deb ./appli/modeles/sensors/LightSensor.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/sensors/LightSensor.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/sensors/LightSensor.o
+ .group         0x0000000000000000        0xc ./appli/modeles/sensors/Potentiometer.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/sensors/Potentiometer.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/sensors/Potentiometer.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/sensors/Potentiometer.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/sensors/Potentiometer.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/sensors/Potentiometer.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/sensors/Potentiometer.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/sensors/Potentiometer.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/sensors/Potentiometer.o
+ .debug_line    0x0000000000000000       0x5c ./appli/modeles/sensors/Potentiometer.o
+ .debug_str     0x0000000000000000     0x2def ./appli/modeles/sensors/Potentiometer.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/sensors/Potentiometer.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/sensors/Potentiometer.o
+ .group         0x0000000000000000        0xc ./appli/modeles/sensors/PumpButton.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/sensors/PumpButton.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/sensors/PumpButton.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/sensors/PumpButton.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/sensors/PumpButton.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/sensors/PumpButton.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/sensors/PumpButton.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/sensors/PumpButton.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/sensors/PumpButton.o
+ .debug_line    0x0000000000000000       0x56 ./appli/modeles/sensors/PumpButton.o
+ .debug_str     0x0000000000000000     0x2de9 ./appli/modeles/sensors/PumpButton.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/sensors/PumpButton.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/sensors/PumpButton.o
+ .group         0x0000000000000000        0xc ./appli/modeles/sensors/SoilMoistureSensor.o
+ .text          0x0000000000000000        0x0 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .data          0x0000000000000000        0x0 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .bss           0x0000000000000000        0x0 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .debug_info    0x0000000000000000       0x21 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .debug_abbrev  0x0000000000000000       0x13 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .debug_macro   0x0000000000000000       0x1b ./appli/modeles/sensors/SoilMoistureSensor.o
+ .debug_macro   0x0000000000000000      0xab4 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .debug_line    0x0000000000000000       0x66 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .debug_str     0x0000000000000000     0x2df9 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .comment       0x0000000000000000       0x54 ./appli/modeles/sensors/SoilMoistureSensor.o
+ .ARM.attributes
+                0x0000000000000000       0x33 ./appli/modeles/sensors/SoilMoistureSensor.o
  .group         0x0000000000000000        0xc ./lib/bsp/APDS9960/apds9960.o
  .group         0x0000000000000000        0xc ./lib/bsp/APDS9960/apds9960.o
  .group         0x0000000000000000        0xc ./lib/bsp/APDS9960/apds9960.o
@@ -22611,6 +22821,20 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
 LOAD ./appli/assembleur.o
 LOAD ./appli/foo.o
 LOAD ./appli/main.o
+LOAD ./appli/controllers/HeatingControl.o
+LOAD ./appli/controllers/LightControl.o
+LOAD ./appli/controllers/SoilMoisturePumpControl.o
+LOAD ./appli/interfaces/Bluetooth.o
+LOAD ./appli/interfaces/TFT.o
+LOAD ./appli/modeles/HeathingResistors.o
+LOAD ./appli/modeles/LED.o
+LOAD ./appli/modeles/Pump.o
+LOAD ./appli/modeles/sensors/ButtonConfig.o
+LOAD ./appli/modeles/sensors/DHT11.o
+LOAD ./appli/modeles/sensors/LightSensor.o
+LOAD ./appli/modeles/sensors/Potentiometer.o
+LOAD ./appli/modeles/sensors/PumpButton.o
+LOAD ./appli/modeles/sensors/SoilMoistureSensor.o
 LOAD ./lib/bsp/APDS9960/apds9960.o
 LOAD ./lib/bsp/APDS9960/apds9960_algo_color.o
 LOAD ./lib/bsp/BH1750FVI/bh1750fvi.o
