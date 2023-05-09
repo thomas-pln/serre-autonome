@@ -5,4 +5,8 @@
 #ifndef DEV_SOILMOISTURESENSOR_H
 #define DEV_SOILMOISTURESENSOR_H
 
+void SoilMoistureSensor_init(void);
+
+int SoilMoistureSensor_getMoistureValue(void);
+
 #endif //DEV_SOILMOISTURESENSOR_H

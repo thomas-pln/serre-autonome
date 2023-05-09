@@ -1,11 +1,12 @@
-appli/modeles/sensors/Potentiometer.o: \
- ../appli/modeles/sensors/Potentiometer.c \
- ../appli/modeles/sensors/Potentiometer.h ../lib/hal/inc/stm32f1xx_hal.h \
- ../lib/hal/inc/stm32f1xx_hal_conf.h ../lib/hal/inc/stm32f1xx_hal_rcc.h \
- ../lib/hal/inc/stm32f1xx_hal_def.h ../lib/CMSIS/device/stm32f1xx.h \
- ../lib/CMSIS/device/stm32f103xb.h ../lib/CMSIS/core/core_cm3.h \
- ../lib/CMSIS/core/cmsis_version.h ../lib/CMSIS/core/cmsis_compiler.h \
- ../lib/CMSIS/core/cmsis_gcc.h ../lib/CMSIS/device/system_stm32f1xx.h \
+appli/modeles/sensors/DHT11Temp.o: ../appli/modeles/sensors/DHT11Temp.c \
+ ../appli/modeles/sensors/DHT11Temp.h \
+ ../lib/bsp/../../lib/bsp/DHT11/dht11.h ../appli/config.h \
+ ../lib/hal/inc/stm32f1xx_hal.h ../lib/hal/inc/stm32f1xx_hal_conf.h \
+ ../lib/hal/inc/stm32f1xx_hal_rcc.h ../lib/hal/inc/stm32f1xx_hal_def.h \
+ ../lib/CMSIS/device/stm32f1xx.h ../lib/CMSIS/device/stm32f103xb.h \
+ ../lib/CMSIS/core/core_cm3.h ../lib/CMSIS/core/cmsis_version.h \
+ ../lib/CMSIS/core/cmsis_compiler.h ../lib/CMSIS/core/cmsis_gcc.h \
+ ../lib/CMSIS/device/system_stm32f1xx.h \
  ../lib/hal/inc/stm32f1xx_hal_rcc_ex.h \
  ../lib/hal/inc/stm32f1xx_hal_gpio.h \
  ../lib/hal/inc/stm32f1xx_hal_gpio_ex.h \
@@ -24,12 +25,13 @@ appli/modeles/sensors/Potentiometer.o: \
  ../lib/hal/inc/stm32f1xx_hal_uart.h ../lib/hal/inc/stm32f1xx_hal_usart.h \
  ../lib/hal/inc/stm32f1xx_hal_wwdg.h ../lib/hal/inc/stm32f1xx_hal_pcd.h \
  ../lib/hal/inc/stm32f1xx_ll_usb.h ../lib/hal/inc/stm32f1xx_hal_pcd_ex.h \
- ../lib/hal/inc/stm32f1xx_hal_hcd.h ../lib/bsp/stm32f1_uart.h \
- ../lib/bsp/macro_types.h ../appli/config.h ../lib/bsp/stm32f1_sys.h \
- ../lib/bsp/stm32f1_uart.h ../lib/bsp/stm32f1_gpio.h \
- ../lib/bsp/macro_types.h ../lib/bsp/systick.h ../lib/bsp/stm32f1_adc.h
+ ../lib/hal/inc/stm32f1xx_hal_hcd.h ../lib/bsp/stm32f1_gpio.h
 
-../appli/modeles/sensors/Potentiometer.h:
+../appli/modeles/sensors/DHT11Temp.h:
+
+../lib/bsp/../../lib/bsp/DHT11/dht11.h:
+
+../appli/config.h:
 
 ../lib/hal/inc/stm32f1xx_hal.h:
 
@@ -117,20 +119,4 @@ appli/modeles/sensors/Potentiometer.o: \
 
 ../lib/hal/inc/stm32f1xx_hal_hcd.h:
 
-../lib/bsp/stm32f1_uart.h:
-
-../lib/bsp/macro_types.h:
-
-../appli/config.h:
-
-../lib/bsp/stm32f1_sys.h:
-
-../lib/bsp/stm32f1_uart.h:
-
 ../lib/bsp/stm32f1_gpio.h:
-
-../lib/bsp/macro_types.h:
-
-../lib/bsp/systick.h:
-
-../lib/bsp/stm32f1_adc.h:

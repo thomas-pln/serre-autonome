@@ -6,7 +6,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../appli/modeles/sensors/ButtonConfig.c \
-../appli/modeles/sensors/DHT11.c \
+../appli/modeles/sensors/DHT11Temp.c \
 ../appli/modeles/sensors/LightSensor.c \
 ../appli/modeles/sensors/Potentiometer.c \
 ../appli/modeles/sensors/PumpButton.c \
@@ -14,7 +14,7 @@ C_SRCS += \
 
 OBJS += \
 ./appli/modeles/sensors/ButtonConfig.o \
-./appli/modeles/sensors/DHT11.o \
+./appli/modeles/sensors/DHT11Temp.o \
 ./appli/modeles/sensors/LightSensor.o \
 ./appli/modeles/sensors/Potentiometer.o \
 ./appli/modeles/sensors/PumpButton.o \
@@ -22,7 +22,7 @@ OBJS += \
 
 C_DEPS += \
 ./appli/modeles/sensors/ButtonConfig.d \
-./appli/modeles/sensors/DHT11.d \
+./appli/modeles/sensors/DHT11Temp.d \
 ./appli/modeles/sensors/LightSensor.d \
 ./appli/modeles/sensors/Potentiometer.d \
 ./appli/modeles/sensors/PumpButton.d \

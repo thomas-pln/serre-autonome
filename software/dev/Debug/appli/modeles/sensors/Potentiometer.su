@@ -1,0 +1,2 @@
+Potentiometer.c:9:6:Potentiometer_init	8	static
+Potentiometer.c:13:9:Potentiometer_getValue	8	static

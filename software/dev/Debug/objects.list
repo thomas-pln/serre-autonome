@@ -10,7 +10,7 @@
 "./appli/modeles/LED.o"
 "./appli/modeles/Pump.o"
 "./appli/modeles/sensors/ButtonConfig.o"
-"./appli/modeles/sensors/DHT11.o"
+"./appli/modeles/sensors/DHT11Temp.o"
 "./appli/modeles/sensors/LightSensor.o"
 "./appli/modeles/sensors/Potentiometer.o"
 "./appli/modeles/sensors/PumpButton.o"

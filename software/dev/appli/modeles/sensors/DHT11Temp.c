@@ -6,7 +6,7 @@
 #include "stm32f1_gpio.h"
 
 #define DHT11_GPIO    GPIOA
-#define DHT11_PIN    GPIO_PIN_0
+#define DHT11_PIN    GPIO_PIN_1
 
 void DHT11Temp_init(void) {
     DHT11_init(DHT11_GPIO, DHT11_PIN);

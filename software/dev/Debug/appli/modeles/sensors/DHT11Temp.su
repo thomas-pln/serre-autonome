@@ -1,0 +1,3 @@
+DHT11Temp.c:11:6:DHT11Temp_init	8	static
+DHT11Temp.c:15:5:DHT11Temp_getTemperature	16	static
+DHT11Temp.c:21:5:DHT11Temp_getHumidity	16	static
