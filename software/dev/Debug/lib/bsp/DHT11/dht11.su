@@ -1,0 +1,6 @@
+dht11.c:25:6:DHT11_init	24	static
+dht11.c:41:6:DHT11_demo	16	static
+dht11.c:73:13:DHT11_process_ms	4	static
+dht11.c:80:13:DHT11_callback_exti	56	static
+dht11.c:123:11:DHT11_state_machine_get_datas	40	static
+dht11.c:218:15:compute_frame	56	static

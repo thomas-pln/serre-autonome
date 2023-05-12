@@ -4,11 +4,11 @@
 
 #ifndef DEV_DHT11Temp_H
 #define DEV_DHT11Temp_H
-#include "../../lib/bsp/DHT11/dht11.h"
+#include "DHT11/dht11.h"
 
 void DHT11Temp_init(void);
 
-int DHT11Temp_getTemperature(void);
+float DHT11Temp_getTemperature(void);
 
 int DHT11Temp_getHumidity(void);
 

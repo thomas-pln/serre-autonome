@@ -3,12 +3,13 @@
 //
 
 #include "SoilMoistureSensor.h"
-#include "stm32f1_gpio.h"
 
-#define SOILMOISTURESENSOR_GPIO    GPIOA
-#define SOILMOISTURESENSOR_PIN    GPIO_PIN_0
+#define ADC_SENSOR_CHANNEL ADC_0
 
 void SoilMoistureSensor_init(void) {
-
+	ADC_init();
 }
 
+double SoilMoistureSensor_getMoistureValue(void){
+    return ADC_getValue(ADC_SENSOR_CHANNEL)*3.3/4095;
+}

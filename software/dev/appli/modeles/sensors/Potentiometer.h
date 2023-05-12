@@ -6,7 +6,6 @@
 #define DEV_POTENTIOMETER_H
 
 #include "stm32f1xx_hal.h"
-#include "stm32f1_uart.h"
 #include "stm32f1_sys.h"
 #include "stm32f1_gpio.h"
 #include "macro_types.h"
