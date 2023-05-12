@@ -57,6 +57,10 @@ RM := rm -rf
 -include lib/bsp/APDS9960/subdir.mk
 -include lib/bsp/subdir.mk
 -include lib/subdir.mk
+-include appli/modeles/sensors/subdir.mk
+-include appli/modeles/subdir.mk
+-include appli/interfaces/subdir.mk
+-include appli/controllers/subdir.mk
 -include appli/subdir.mk
 -include subdir.mk
 -include objects.mk

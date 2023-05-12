@@ -21,6 +21,10 @@ OBJCOPY_BIN :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 appli \
+appli/controllers \
+appli/interfaces \
+appli/modeles \
+appli/modeles/sensors \
 lib/bsp/APDS9960 \
 lib/bsp/BH1750FVI \
 lib/bsp/CapacitiveKeyboard \
