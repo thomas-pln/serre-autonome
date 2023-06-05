@@ -15,7 +15,7 @@
 
 #include "modeles/sensors/DHT11Temp.h"
 #include "modeles/sensors/SoilMoistureSensor.h"
-
+#include "interfaces/TFT.h"
 void writeLED(bool_e b)
 {
 	HAL_GPIO_WritePin(LED_GREEN_GPIO, LED_GREEN_PIN, b);
@@ -57,8 +57,9 @@ int main(void)
 	//On ajoute la fonction process_ms � la liste des fonctions appel�es automatiquement chaque ms par la routine d'interruption du p�riph�rique SYSTICK
 	Systick_add_callback_function(&process_ms);
 
+	//TFT_init();
 
-	//DHT11Temp_init();
+	DHT11Temp_init();
 	SoilMoistureSensor_init();
 
 	while(1)	//boucle de t�che de fond
@@ -67,7 +68,7 @@ int main(void)
 		{
 			t = 200;
 			HAL_GPIO_TogglePin(LED_GREEN_GPIO, LED_GREEN_PIN);
-			//printf("Temperature : %f\n", DHT11Temp_getTemperature());
+			printf("Temperature : %f\n", DHT11Temp_getTemperature());
 			printf("Soil Moisture : %f", SoilMoistureSensor_getMoistureValue());
 		}
 	}

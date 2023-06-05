@@ -27,7 +27,9 @@ appli/main.o: ../appli/main.c ../lib/hal/inc/stm32f1xx_hal.h \
  ../lib/bsp/stm32f1_uart.h ../lib/bsp/stm32f1_gpio.h \
  ../lib/bsp/macro_types.h ../lib/bsp/systick.h \
  ../appli/modeles/sensors/DHT11Temp.h ../lib/bsp/DHT11/dht11.h \
- ../appli/modeles/sensors/SoilMoistureSensor.h ../lib/bsp/stm32f1_adc.h
+ ../appli/modeles/sensors/SoilMoistureSensor.h ../lib/bsp/stm32f1_adc.h \
+ ../appli/interfaces/TFT.h ../lib/bsp/tft_ili9341/stm32f1_ili9341.h \
+ ../lib/bsp/tft_ili9341/stm32f1_fonts.h
 
 ../lib/hal/inc/stm32f1xx_hal.h:
 
@@ -138,3 +140,9 @@ appli/main.o: ../appli/main.c ../lib/hal/inc/stm32f1xx_hal.h \
 ../appli/modeles/sensors/SoilMoistureSensor.h:
 
 ../lib/bsp/stm32f1_adc.h:
+
+../appli/interfaces/TFT.h:
+
+../lib/bsp/tft_ili9341/stm32f1_ili9341.h:
+
+../lib/bsp/tft_ili9341/stm32f1_fonts.h:

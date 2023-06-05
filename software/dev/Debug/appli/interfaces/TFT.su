@@ -1,0 +1,2 @@
+TFT.c:8:6:TFT_init	16	static
+TFT.c:21:6:display_temperature	24	static
