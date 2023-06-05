@@ -1,0 +1,2 @@
+SoilMoistureSensor.c:9:6:SoilMoistureSensor_init	8	static
+SoilMoistureSensor.c:13:8:SoilMoistureSensor_getMoistureValue	8	static

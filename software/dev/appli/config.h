@@ -77,7 +77,7 @@
 	#define USE_AN6			0	//Broche correspondante : PA6
 	#define USE_AN7			0	//Broche correspondante : PA7
 	#define USE_AN8			0	//Broche correspondante : PB0
-	#define USE_AN9			0	//Broche correspondante : PB1
+	#define USE_AN9			1	//Broche correspondante : PB1
 	#define USE_AN10		0	//Broche correspondante : PC0	//Sur la Bluepill, cette broche n'est pas c�bl�e !
 	#define USE_AN11		0	//Broche correspondante : PC1	//Sur la Bluepill, cette broche n'est pas c�bl�e !
 	#define USE_AN12		0	//Broche correspondante : PC2	//Sur la Bluepill, cette broche n'est pas c�bl�e !
@@ -92,19 +92,19 @@
 	#if USE_SCREEN_TFT_ILI9341
 		#define USE_XPT2046			1	//Tactile
 
-		#define USE_FONT11x18		0
+		#define USE_FONT11x18		1
 		#define USE_FONT7x10		1
 		#define USE_FONT16x26		0
 
 		#if BLUEPILL					//D�finition des broches CS, WRX et RST pour la BLUEPILL
-			#define ILI9341_CS_PORT       GPIOB
-			#define ILI9341_CS_PIN        GPIO_PIN_11
+			#define ILI9341_CS_PORT       GPIOA
+			#define ILI9341_CS_PIN        GPIO_PIN_12
 
-			#define ILI9341_WRX_PORT      GPIOB
-			#define ILI9341_WRX_PIN       GPIO_PIN_1
+			#define ILI9341_WRX_PORT      GPIOA
+			#define ILI9341_WRX_PIN       GPIO_PIN_8
 
-			#define ILI9341_RST_PORT      GPIOB
-			#define ILI9341_RST_PIN       GPIO_PIN_10
+			#define ILI9341_RST_PORT      GPIOA
+			#define ILI9341_RST_PIN       GPIO_PIN_9
 		#endif /* BLUEPILL */
 	#endif
 
@@ -124,7 +124,7 @@
 #define USE_SENSOR_LPS22HB		0//Pression (et temp�rature)
 #define USE_MLX90614			0	//Capteur de temp�rature sans contact
 #define USE_MPU6050				0//Acc�l�rom�tre et Gyroscope
-#define USE_DHT11				0
+#define USE_DHT11				1
 
 #define USE_MATRIX_KEYBOARD		0
 #define USE_MATRIX_LED			0

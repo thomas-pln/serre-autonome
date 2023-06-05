@@ -1,0 +1,2 @@
+LightSensor.c:13:6:lightSensor_init	8	static
+LightSensor.c:17:8:getBrightness	8	static
